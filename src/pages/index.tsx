@@ -1,6 +1,8 @@
 function Home() {
   return (
-    <div>oi mundo</div>
+    <div>
+      <p>oi mundo</p>
+    </div>
   )
 }
 
