@@ -1,0 +1,17 @@
+.Container {
+    width: 100%;
+    
+    display: grid;
+    place-items: center;
+    padding: 20px;
+
+    background-color: #000;
+}
+
+.Container p {
+    color: #fff;
+}
+
+.Container p:hover {
+    color: rgb(124, 129, 133);
+}
