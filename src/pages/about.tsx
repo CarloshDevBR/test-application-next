@@ -1,6 +1,8 @@
 function About() {
   return (
-    <div>Sobre o comércio</div>
+    <>
+      <p>Sobre o comércio</p>
+    </>
   )
 }
 

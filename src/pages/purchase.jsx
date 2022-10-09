@@ -1,6 +1,8 @@
 function Purchase() {
   return (
-    <div>Compre aqui</div>
+    <>
+      <p>Compre aqui</p>
+    </>
   )
 }
 

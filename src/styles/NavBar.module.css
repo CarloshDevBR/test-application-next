@@ -1,9 +1,16 @@
 .Container {
     display: flex;
+    flex-direction: row-reverse;
+    padding: 20px 10px;
+
     list-style: none;
     background-color: #000;
-    padding: 20px 10px;
+}
+
+.Container ul {
+    display: flex;
     gap: 30px;
+    margin-right: 50px;
 }
 
 .Container a {
