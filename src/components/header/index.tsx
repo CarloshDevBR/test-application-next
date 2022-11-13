@@ -12,7 +12,7 @@ export const Header = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href='/todo'>
+                    <Link href='/todos'>
                         <a>Tarefas</a>
                     </Link>
                 </li>

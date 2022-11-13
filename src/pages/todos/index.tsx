@@ -1,4 +1,5 @@
-import styles from '../../styles/todos.module.css'
+import Link from 'next/link';
+import styles from '../../styles/todos.module.css';
 
 interface Item {
   todos: {
@@ -26,7 +27,7 @@ function Todo({ todos }: Item) {
       <ul className={styles.todolist}>
         {
           todos.map((e) => (
-            <li key={e.id}>{e.id} - {e.title}</li>
+            <li key={e.id}>{e.id} - {e.title} <Link href={`/todos/` + e.id}><a>Ver mais</a></Link></li>
           ))
         }
       </ul>
