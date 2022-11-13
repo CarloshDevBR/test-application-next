@@ -44,7 +44,7 @@ function Todo({ todo }: Item) {
 
             <h1>Exibindo o todoId: { todo.id }</h1>
             <p>Texto: { todo.title }</p>
-            <p>comentario aqui...<Link href={`/todos/1/comments/` + todo.id}><a>ver mais</a></Link></p>
+            <p>comentario aqui...<Link href={`/todos/${todo.id}/comments/` + todo.id}><a>ver mais</a></Link></p>
         </>
     )
 }
